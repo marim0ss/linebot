@@ -1,0 +1,15 @@
+current directory: /Users/marumo/rails5/linebot/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/ext/bootsnap
+/Users/marumo/.rbenv/versions/2.5.0/bin/ruby -r ./siteconf20180629-21589-10rqg3m.rb extconf.rb
+creating Makefile
+
+current directory: /Users/marumo/rails5/linebot/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/marumo/rails5/linebot/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/marumo/rails5/linebot/vendor/bundle/ruby/2.5.0/gems/bootsnap-1.3.0/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20180629-21589-1v0l4rk/bootsnap
