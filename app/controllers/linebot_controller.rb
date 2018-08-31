@@ -14,7 +14,7 @@ class LinebotController < ApplicationController
       when Line::Bot::Event::Message
         case event.type
         when Line::Bot::Event::MessageType::Text
-          # 正規表現で「〜』をパターンマッチしてkeywordへ格納
+          # 正規表現で「〜」をパターンマッチしてkeywordへ格納
           keyword = event.message['text'].match(/.*「(.+)」.*/)
           # マッチングしたときのみ入力されたキーワードを使用
           if  keyword.present?
