@@ -59,4 +59,5 @@ namespace :schedular do
      end
      task sunglasses: :environment do
        Sunglasses.sunglasses_main
+     end
 end
