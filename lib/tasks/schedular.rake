@@ -1,6 +1,6 @@
 namespace :schedular do
-  desc "This task is called by the Heroku scheduler add-on"
-  task :update_feed => :environment do
+  desc "This task is called by the Heroku scheduler add-on"  # 説明
+  task :update_feed => :environment do     # タスク名:update_feed
     require 'line/bot'  # gem 'line-bot-api'
     require 'open-uri'
     require 'kconv'
